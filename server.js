@@ -9,7 +9,7 @@ var http = require("http");
 // Configs
 var clients = [];
 var wsConfig = {
-  port: 1337
+  port: process.env.PORT || 3000
 };
 
 function split(str, delimiter) {
