@@ -1,0 +1,15 @@
+{
+  "name": "websocket-node-server",
+  "version": "1.0.0",
+  "description": "Basic Websocket server for WebsocketPubSub",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Het Shah",
+  "license": "MIT",
+  "dependencies": {
+    "websocket": "^1.0.30"
+  }
+}
